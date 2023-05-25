@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Russo One', sans-serif;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #dc040c;
+    color: #fffcff;
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: #fffcff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 80px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 36px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #dc040c;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #26251c;
+}
+
+section p {
+    margin-bottom: 16px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.morumbi {
+    margin-right: 32px;
+    height: 450px;
+}
+
+.social-links img {
+    height: 40px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#partner .container {
+    display: block;
+}
+
+.partner-contact {
+    display: flex;
+    justify-content: space-between;
+}
+/*teste de margem*/
+.local,
+.redes {
+    margin-inline-start: 38px;
+}
+
+form input,
+form select,
+form button {
+    display: block;
+    width: 450px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #dc040c;
+    color: #fffcff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #26251c;
+}
+
+input:focus {
+    outline-color: #dc040c;
+}
+
+footer {
+    background-color: #dc040c;
+    color: #fffcff;
+    padding: 16px 0;
+}

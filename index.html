@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto 1</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Sora&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SÃO PAULO FUTEBOL CLUBE</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#partner">Seja socio</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="morumbi" src="./images/morumbi.jpeg" alt="Estadio do morumbi">
+            <div>
+                <h2>Sobre o SPFC</h2>
+                <p>
+                    A mais jovem agremiação dentre os grandes do futebol brasileiro, o São Paulo FC é o clube mais vencedor do Brasil!
+                </p>
+                <p>
+                    Fundado em 25 de janeiro de 1930 e marcado por histórias de superação, como a refundação do clube em 1935 ou os tempos difíceis da construção do Morumbi, o Tricolor Mais Querido do planeta é o único clube brasileiro a ter conquistado a América e o Mundo por três vezes. É ainda o único Tricampeão consecutivo do Campeonato Brasileiro e o primeiro a conquistá-lo por seis vezes. Tri-Hexacampeão Brasileiro.
+                </p>
+                <ul class="brands-list">
+                    <li><img src="./images/spfc-logo.png" alt="SPFC"></li>
+                    <li><img src="./images/spfc-st-logo.png" alt="Socio Torcedor"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="partner">
+        <div class="container">
+            <h2>SEJA SOCIO</h2>
+            <div class="partner-contact">
+                <div>
+                    <h3>INSCREVA-SE</h3>
+                    <form>
+                        <label>Nome</label>
+                        <input type="text" placeholder="Seu nome" required />
+                        <label>E-mail</label>
+                        <input type="email" placeholder="Seu e-mail" required />
+                        <label>Documento</label>
+                        <input type="text" placeholder="Seu CPF" required>
+                        <label>Contato</label>
+                        <input type="tel" placeholder="Seu telefone" required />
+                        <label>Escolha seu plano</label>
+                        <select name="select">
+                            <option value="Plano Vermelho">Plano Vermelho</option>
+                            <option value="Plano Branco">Plano Branco</option>
+                            <option value="Plano Preto">Plano Preto</option>
+                            <option value="Plano Tricolor" selected>Plano Tricolor</option>
+                        </select>
+                        <button type="submit">INSCREVER-SE</button>
+                    </form>
+                </div>
+                <div class="redes">
+                    <h3>SIGA-NOS NAS REDES</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.instagram.com/saopaulofc/" title="Siga-nos no instagram">
+                                <img src="./images/instagram.png" alt="Logo do instagram" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/saopaulofc" title="Siga-nos no Facebook">
+                                <img src="./images/facebook.png" alt="Logo do facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/spfctv" title="Visite nosso canal no YouTube">
+                                <img src="./images/youtube.png" alt="Logo do youtube" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="local">
+                    <h3>NOSSA LOCALIZAÇÃO</h3>
+                    <p>
+                        Av. Marquês de São Vicente, 2724 - Barra Funda, 
+                        <br/>São Paulo - SP, 05036-040
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; São Paulo Futebol Clube - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
